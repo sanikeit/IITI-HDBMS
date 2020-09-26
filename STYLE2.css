@@ -1,0 +1,392 @@
+ body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.menu{
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 10%;
+  display: flex;
+  flex-direction : column;
+  text-align: center;
+}
+.animate{
+  color: white;
+  position: absolute;
+  top:70%;
+  left:35%;
+  transform: translate(-50%,-50%);
+  background: transparent;
+  padding: 0 40px;
+  height: 120px;
+  width: 600px;
+  overflow: hidden;
+}
+.line{
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 20px;
+}
+.line button{
+  color: black;
+  text-align: center;
+  background: white;
+  border: 1px solid white;
+  padding-left: 2px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.line:first-child{
+  animation: anim 5s infinite;
+}
+@keyframes anim{
+  0%{
+    margin-top: 0;
+   }
+   5%{
+     margin-top: 0;
+    }
+   33%{
+     margin-top: -100px;
+    }
+    38%{
+      margin-top: -100px;
+     }
+     66%{
+       margin-top: -200px;
+      }
+     71%{
+       margin-top: -200px;
+      }
+      100%{
+        margin-top: -300px;
+       }
+      /*70%{
+        margin-top: -108px;
+       }
+       80%{
+         margin-top: -72px;
+        }
+        90%{
+          margin-top: -36px;
+         }
+        100%{
+          margin-top: -360px;
+         }*/
+}
+.con{
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 8%;
+  display: flex;
+  flex-direction : column;
+  text-align: center;
+}
+.in{
+  height: 10%;
+  transition: all .5s ease-out;
+}
+.in ion-icon{
+  transform: scale(.25);
+color: white;
+}
+.in:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.fb{
+  height: 10%;
+    transition: all .5s ease-out;
+}
+.fb ion-icon{
+  transform: scale(.25);
+  color: white;
+}
+.fb:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.tw{
+  height: 10%;
+    transition: all .5s ease-out;
+}
+.tw ion-icon{
+transform: scale(.25);
+color: white;
+}
+.tw:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.bur{
+  transform: scale(.4);
+  padding-bottom: 0;
+  color: orange;
+  background-color: black;
+  box-sizing: border-box;
+  border-radius: 200px;
+}
+.logo img{
+  padding: 0;
+  width: 55px;
+  height: 55px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 80%;
+  margin: 30px 0;
+}
+.navbar{
+display: flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 0;
+}
+.navlist li{
+  display: flex;
+  float: left;
+  padding-left: 35px;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  font-size: 30px
+  }
+  .navlist a{
+    color :white;
+    font-family: 'Bree Serif', serif;
+    font-size: 35PX;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+  .navlist b{
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    padding-bottom: 5px;
+  }
+  .navlist c{
+    color: white;
+  font-family: 'Architects Daughter', cursive;
+  padding-bottom: 5px;
+  }
+.rightnav{
+  text-align: right;
+  top : 10%;
+}
+.btn button{
+  width:80px;
+  height:40px;
+  color: white;
+  border: 2px solid white;
+  background: transparent;
+  box-sizing: border-box;
+  border-radius: 17px;
+}
+.btn ion-icon{
+  margin:1px;
+  border: 0;
+  width :30px;
+  height:30px;
+  padding-top: 5px;
+}
+a{
+  text-decoration: none;
+
+}
+.menu ion-icon{
+  font-size: 32px;
+}
+.menu a{
+  margin: 30px 0;
+}
+.page{
+  position: absolute;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Balsamiq Sans', cursive;
+}
+.btn a{
+  float: right;
+  padding-left: 4px;
+  padding-right: 15px;
+}
+.btn b{
+  float: right;
+  padding-right: 4px;
+  padding-left: 15px;
+}
+.wrap a{
+  padding-right: 20px;
+}
+.wrap b{
+  padding-left: 20px;
+}
+.btn1{
+  width:140px;
+  height:40px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+  background: transparent;
+  box-sizing: border-box;
+  border-radius: 17px;
+    transition: all .5s ease-out;
+}
+.btn2{
+  width:140px;
+  height:40px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+  background: transparent;
+  box-sizing: border-box;
+  border-radius: 17px;
+    transition: all .5s ease-out;
+}
+.btn3{
+  width:140px;
+  height:40px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+  background: transparent;
+  box-sizing: border-box;
+  border-radius: 17px;
+  transition: all .5s ease-out;
+}
+.btn4{
+  width:140px;
+  height:40px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+  background: transparent;
+  box-sizing: border-box;
+  border-radius: 17px;
+  transition: all .5s ease-out;
+}
+.btn1:hover{
+  cursor: pointer;
+  background: white;
+  color: black;
+  font-weight: bolder;
+  transform: scale(1.2);
+}
+.btn2:hover{
+  cursor: pointer;
+  background: white;
+  color: black;
+  font-weight: bolder;
+    transform: scale(1.2);
+}
+.btn3:hover{
+  cursor: pointer;
+  background: white;
+  color: black;
+  font-weight: bolder;
+}
+.btn4:hover{
+  cursor: pointer;
+  background: white;
+  color: black;
+  font-weight: bolder;
+}
+#p1{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7) url(BG.JPG);
+  background-size: cover;
+  left: 0;
+}
+#p2{
+  background: rgba(0, 0, 0, 0.7) url(monty-allen-aLzlhl9_jAc-unsplash.JPG);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+#p3{
+  background: rgba(0, 0, 0, 0.7) url(blood.JPG);
+  background-size: cover;
+    background-blend-mode: darken;
+}
+#p4{
+  background: rgba(0, 0, 0, 0.7) url(bloodd.JPG);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+#p5{
+  background: rgba(0, 0, 0, 0.7) url(jonnica-hill-V5nq6u-Ce_U-unsplash.JPG);
+  background-size: cover;
+  background-blend-mode: darken;
+  }
+#p6{
+  background: rgba(0, 0, 0, 0.7) url(phone.JPG);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+#p2, #p3, #p4, #p5, #p6{
+ width: 90%;
+ left: 10%;
+ transform: translateX(190%);
+}
+.menu a{
+  transition: all .5s ease-out;
+  color : white;
+}
+.menu a:hover{
+transform: scale(1.5);
+}
+.page{
+  color: white;
+}
+.page ion-icon{
+  font-size: 120px;
+}
+.page h2{
+  font-size:80px;
+margin-bottom: 10px;
+}
+.page span{
+  font-size: 25px;
+}
+.page{
+  transition: all .6s cubic-bezier(.5,.2,.2,1.1);
+}
+#t2:target #p2,
+#t3:target #p3,
+#t4:target #p4,
+#t5:target #p5,
+#t6:target #p6{
+  transform: translateX(0);
+  transition-delay: .4s;
+}
+#t2:target #p1,
+#t3:target #p1,
+#t4:target #p1,
+#t5:target #p1,
+#t6:target #p1 {
+  background: #000;
+filter: blur(3px);
+}
+#t2:target .menu a,
+#t3:target .menu a,
+#t4:target .menu a,
+#t5:target .menu a,
+#t6:target .menu a{
+  transform: scale(.8);
+  transition-delay: .25s;
+}
+#t2:target  .two,
+#t3:target  .three,
+#t4:target  .four,
+#t5:target  .five,
+#t6:target  .six, {
+  transform: scale(2);
+}
