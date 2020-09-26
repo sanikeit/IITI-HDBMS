@@ -302,32 +302,32 @@ a{
 }
 #p1{
   width: 100%;
-  background: rgba(0, 0, 0, 0.7) url(BG.JPG);
+  background: rgba(0, 0, 0, 0.7) url(BG.jpg);
   background-size: cover;
   left: 0;
 }
 #p2{
-  background: rgba(0, 0, 0, 0.7) url(monty-allen-aLzlhl9_jAc-unsplash.JPG);
+  background: rgba(0, 0, 0, 0.7) url(monty-allen-aLzlhl9_jAc-unsplash.jpg);
   background-size: cover;
   background-blend-mode: darken;
 }
 #p3{
-  background: rgba(0, 0, 0, 0.7) url(blood.JPG);
+  background: rgba(0, 0, 0, 0.7) url(blood.jpg);
   background-size: cover;
     background-blend-mode: darken;
 }
 #p4{
-  background: rgba(0, 0, 0, 0.7) url(bloodd.JPG);
+  background: rgba(0, 0, 0, 0.7) url(bloodd.jpg);
   background-size: cover;
   background-blend-mode: darken;
 }
 #p5{
-  background: rgba(0, 0, 0, 0.7) url(jonnica-hill-V5nq6u-Ce_U-unsplash.JPG);
+  background: rgba(0, 0, 0, 0.7) url(jonnica-hill-V5nq6u-Ce_U-unsplash.jpg);
   background-size: cover;
   background-blend-mode: darken;
   }
 #p6{
-  background: rgba(0, 0, 0, 0.7) url(phone.JPG);
+  background: rgba(0, 0, 0, 0.7) url(phone.jpg);
   background-size: cover;
   background-blend-mode: darken;
 }
